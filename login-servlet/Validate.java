@@ -8,6 +8,7 @@ public class Validate
     try
     {
       Class.forName("com.mysql.jdbc.Driver");
+      Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test","","");
       PreparedStatement ps=con.prepareStatement("select * from register where email=? and pass=?");
       ps.setString(1,email);
       ps.setString(1,pass);
