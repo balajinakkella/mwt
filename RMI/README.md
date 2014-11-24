@@ -1,9 +1,13 @@
 mwt
 ===
 CMD1 CMD2 CMD3 are command prompts in windows
+---
 Steps:
+---
 1.Download and save these files as .java
+---
 2.Execute the and generate class files
+---
 3.Follow the below commands
 
 `
